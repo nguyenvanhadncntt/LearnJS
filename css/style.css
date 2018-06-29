@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  margin: 0;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+/* product css */
+.page-header {
+  border-bottom: 2px solid #cbcdd2;
+}
+.page-logo {
+  text-align: center;
+  width: 20%;
+  float: left;
+  display: inline-block;
+}
+.page-logo img{
+  width: 53%;
+}
+.page-title {
+  width: 60%;
+  text-align: center;
+  float:left;
+  color: #7a7575;
+}
+.page-title h1 {
+  margin-bottom: 5px;
+  margin-top: 32px;
+}
+#shopping_cart {
+  width: 6%;
+  float: right;
+  padding: 3%;
+  margin-top: 25px;
+  margin-right: 50px;
+  background-image: url('../images/icon-shopping-cart.png');
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.page-main {
+  margin: 35px 0;
+  text-align: center;
+}
+.product-item img {
+  width: 100%;
+  height: 140px;
+}
+.product-item {
+  float: left;
+  width: calc(100% / 4);
+  padding: 30px;
+}
+.product-content {
+  border: 5px solid #e8dbdb;
+  text-align: center;
+}
+.product-content h3 {
+  padding: 10px
+}
+.product-content strong {
+  color: red;
+}
+.btnRemove ,
+.product-content button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  background-color:  #b61127;
+  color: #e8dbdb;
+  cursor: pointer;
+}
+btnRemove ,
+.product-content button:hover {
+  background-color: #b42b7b;
+}
+.product-content button:disabled {
+  background-color: #7d3480;
+  cursor: default;
+}
+.page-footer {
+  background-color: #8a8484;
+}
+.infor-list{
+  float: left;
+  width: calc(100% / 3);
+  color: #ffffff;
+}
+.contact-infor{
+  padding: 30px;
+  padding-top: 2%;
+  border-bottom: 1px solid #ffffff;
+}
+.clearfix::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+.author p {
+  display: inline-block;
+  color: #ffffff;
+}
+.design {
+  float: right;
+}
+/* cart page */
+table{
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+td {
+  width: calc(100% / 5);
+}
+tr, td, th{
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+td img {
+  width: 70%;
+}
+tr:nth-child(odd) {
+  background-color: #eae8e8;
+}
+thead tr:nth-child(1) {
+  background-color: #ffffff;
+}
